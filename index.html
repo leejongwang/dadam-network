@@ -187,10 +187,84 @@
       .hero-grid,.why-layout,.faq-layout,.contact-inner{grid-template-columns:1fr}.hero{min-height:auto}.showcase{max-width:760px;width:100%;margin:25px auto 0}.trust-box{grid-template-columns:1fr 1fr}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}.service-grid{grid-template-columns:1fr 1fr}.service-card:last-child{grid-column:1/-1}.process-grid{grid-template-columns:1fr 1fr}.why-visual{max-width:680px;margin:0 auto;width:100%}.portfolio-head{display:block}.portfolio-note{text-align:left;margin-top:14px}
     }
     @media(max-width:720px){
-      :root{--wrap:min(100% - 28px,1180px)}
-      .section{padding:78px 0}.nav{height:68px}.nav-links{position:fixed;left:14px;right:14px;top:76px;display:none;flex-direction:column;align-items:stretch;gap:4px;padding:15px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.97);backdrop-filter:blur(17px);box-shadow:0 20px 55px rgba(24,31,69,.15)}.nav-links.open{display:flex}.nav-links a{padding:11px}.menu-btn{display:grid}
-      .hero{padding:112px 0 75px}.hero-copy{font-size:16px}.hero-actions{display:grid}.btn{width:100%}.hero-points{display:grid;gap:10px}.showcase{height:410px}.browser{width:94%;height:330px;top:28px}.phone{width:112px;height:230px}.metric{right:0;bottom:12px;padding:12px 14px}.metric strong{font-size:18px}.float-icon{left:20px;width:58px;height:58px}.trust{margin-top:0}.trust-box{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.trust-item:last-child{border-bottom:0}
-      .service-grid,.portfolio-grid,.process-grid{grid-template-columns:1fr}.service-card:last-child{grid-column:auto}.project-body{padding:20px}.process-step{min-height:auto}.why-badge{right:2px;bottom:-15px}.quick-contact,.form-grid,.form-actions{grid-template-columns:1fr}.field.full{grid-column:auto}.contact-inner{padding:30px 18px}.footer-top{display:grid}.biz-row{display:grid;gap:5px}.mobile-bar{display:grid}footer{padding-bottom:115px}
+      :root{--wrap:min(100% - 34px,1180px)}
+      body{line-height:1.72}
+      .section{padding:66px 0}
+      h2{font-size:32px;line-height:1.18;letter-spacing:-.045em;margin-bottom:15px}
+      .section-copy{font-size:16px;line-height:1.72}
+      .kicker{font-size:12px;margin-bottom:11px}
+
+      .nav{height:64px}
+      .brand{gap:9px;font-size:17px}
+      .brand-mark{width:34px;height:34px;border-radius:11px}
+      .brand-mark svg{width:19px}
+      .menu-btn{display:grid;width:42px;height:42px;border-radius:13px}
+      .nav-links{position:fixed;left:14px;right:14px;top:72px;display:none;flex-direction:column;align-items:stretch;gap:4px;padding:15px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.97);backdrop-filter:blur(17px);box-shadow:0 20px 55px rgba(24,31,69,.15)}
+      .nav-links.open{display:flex}.nav-links a{padding:11px}
+
+      .hero{min-height:auto;padding:98px 0 54px}
+      .hero-grid{gap:32px}
+      .hero-badge{max-width:100%;white-space:normal;font-size:12px;line-height:1.35;padding:8px 11px;margin-bottom:18px}
+      h1{font-size:clamp(34px,9.2vw,40px);line-height:1.12;letter-spacing:-.055em;margin-bottom:20px}
+      h1 .gradient{display:block;margin-top:6px}
+      .hero-copy{font-size:16px;line-height:1.78;margin-bottom:25px}
+      .hero-actions{display:grid;gap:10px;margin-bottom:23px}
+      .btn{width:100%;min-height:52px;font-size:15px}
+      .hero-points{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;font-size:13px}
+      .check{width:18px;height:18px;font-size:11px}
+
+      .showcase{height:335px;margin-top:8px}
+      .browser{width:98%;height:275px;top:18px;right:0;transform:none;border-radius:19px}
+      .browser:hover{transform:none}
+      .browser-top{height:38px;padding:0 12px}
+      .browser-image{height:calc(100% - 38px)}
+      .phone{left:0;width:88px;height:181px;padding:6px;border-radius:22px;transform:rotate(-3deg)}
+      .phone::before{top:9px;width:38px;height:9px}
+      .phone-screen{border-radius:17px}
+      .metric,.float-icon{display:none}
+
+      .trust{margin-top:6px}
+      .trust-box{grid-template-columns:1fr}
+      .trust-item{padding:20px;border-right:0;border-bottom:1px solid var(--line)}
+      .trust-item:last-child{border-bottom:0}
+
+      .service-grid,.portfolio-grid,.process-grid{grid-template-columns:1fr;gap:16px;margin-top:34px}
+      .service-card{min-height:auto;padding:24px}
+      .service-card:last-child{grid-column:auto}
+      .service-card h3{font-size:20px}
+      .service-card p{font-size:14px;line-height:1.7}
+      .portfolio-head{margin-bottom:30px}
+      .portfolio-note{font-size:12px;line-height:1.65}
+      .project-body{padding:18px}
+      .process-step{min-height:auto;padding:24px}
+
+      .why-layout{gap:42px}
+      .why-visual{padding:0}
+      .why-badge{position:static;margin-top:12px;padding:16px 18px;border-radius:16px}
+      .why-badge strong{font-size:20px}
+      .why-list{margin-top:26px}
+      .why-item{grid-template-columns:42px 1fr;padding:17px}
+      .why-item i{width:42px;height:42px}
+
+      .faq-layout{gap:32px}
+      details{padding:0 17px}
+      summary{padding:18px 34px 18px 0;font-size:15px;line-height:1.5}
+
+      .contact{padding:55px 0 82px}
+      .contact-shell{border-radius:25px}
+      .contact-inner{padding:28px 16px;gap:30px}
+      .contact h2{font-size:31px;line-height:1.2}
+      .contact-copy{font-size:16px;line-height:1.72}
+      .quick-contact,.form-grid,.form-actions{grid-template-columns:1fr}
+      .field.full{grid-column:auto}
+      form{padding:19px 15px;border-radius:20px}
+      .field input,.field select,.field textarea{font-size:16px}
+
+      .footer-top{display:grid}.biz-row{display:grid;gap:5px}
+      footer{padding-bottom:104px}
+      .mobile-bar{display:grid;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));gap:7px;padding:6px;border-radius:16px;opacity:0;pointer-events:none;transform:translateY(20px);transition:opacity .24s ease,transform .24s ease}
+      .mobile-bar.show{opacity:1;pointer-events:auto;transform:none}
+      .mobile-bar a{height:46px;border-radius:12px;font-size:14px}
     }
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
   </style>
@@ -231,7 +305,7 @@
       <div class="wrap hero-grid">
         <div class="reveal">
           <div class="hero-badge"><i></i> 홈페이지·랜딩페이지 제작 및 관리</div>
-          <h1>브랜드의 가치를 높이는<br><span class="gradient">제대로 된 홈페이지</span></h1>
+          <h1>브랜드 가치를 높이는<br><span class="gradient">제대로 된 홈페이지</span></h1>
           <p class="hero-copy">예쁘기만 한 화면에서 끝내지 않습니다. 방문자가 내용을 빠르게 이해하고, 문의와 상담으로 자연스럽게 이어지는 페이지를 기획부터 제작·관리까지 한 번에 진행합니다.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#contact">무료 상담 요청 <span>→</span></a>
@@ -342,13 +416,19 @@
     <div class="biz"><div class="biz-row"><span>상호명: 다담네트웍</span><span>대표자: 이종왕</span><span>사업자등록번호: 881-12-02924</span></div><div class="biz-row"><span>사업장 소재지: 경기도 수원시 권선구 동수원로146번길 316-7, 103호(곡반정동)</span></div><div class="biz-row"><span>이메일: <a href="mailto:bet1ch@naver.com">bet1ch@naver.com</a></span><span>오픈카톡: <a href="https://open.kakao.com/o/sMj981Ai" target="_blank" rel="noopener noreferrer">상담방 바로가기</a></span></div></div><div class="copyright">© <span id="year"></span> DADAM NETWORK. All rights reserved.</div>
   </div></footer>
 
-  <div class="mobile-bar"><a class="mobile-email" href="mailto:bet1ch@naver.com?subject=%EB%8B%A4%EB%8B%B4%EB%84%A4%ED%8A%B8%EC%9B%8D%20%EB%AC%B8%EC%9D%98">이메일 문의</a><a class="mobile-kakao" href="https://open.kakao.com/o/sMj981Ai" target="_blank" rel="noopener noreferrer">오픈카톡</a></div>
+  <div class="mobile-bar" id="mobileBar"><a class="mobile-email" href="mailto:bet1ch@naver.com?subject=%EB%8B%A4%EB%8B%B4%EB%84%A4%ED%8A%B8%EC%9B%8D%20%EB%AC%B8%EC%9D%98">이메일 문의</a><a class="mobile-kakao" href="https://open.kakao.com/o/sMj981Ai" target="_blank" rel="noopener noreferrer">오픈카톡</a></div>
   <div class="modal" id="imageModal" role="dialog" aria-modal="true" aria-label="제작 샘플 크게 보기"><div class="modal-inner"><button class="modal-close" id="modalClose" type="button" aria-label="닫기">×</button><img id="modalImage" src="" alt="확대된 홈페이지 제작 샘플"></div></div>
 
   <script>
     const $ = (id) => document.getElementById(id);
-    const header = $('header'), menuBtn = $('menuBtn'), navLinks = $('navLinks');
-    window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 20), {passive:true});
+    const header = $('header'), menuBtn = $('menuBtn'), navLinks = $('navLinks'), mobileBar = $('mobileBar');
+    const updateScrollUI = () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+      if (mobileBar) mobileBar.classList.toggle('show', window.scrollY > Math.min(520, window.innerHeight * 0.62));
+    };
+    window.addEventListener('scroll', updateScrollUI, {passive:true});
+    window.addEventListener('resize', updateScrollUI, {passive:true});
+    updateScrollUI();
     menuBtn.addEventListener('click', () => { const open = navLinks.classList.toggle('open'); menuBtn.setAttribute('aria-expanded', String(open)); });
     navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { navLinks.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); }));
 
